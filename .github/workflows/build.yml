@@ -335,6 +335,7 @@ jobs:
         -DCMAKE_SYSTEM_NAME=iOS
         -DGEODE_DONT_BUILD_TEST_MODS=ON
         -DCMAKE_BUILD_TYPE=RelWithDebInfo
+        -DGEODE_DISABLE_PRECOMPILED_HEADERS=OFF
         ${{ steps.build-debug-info.outputs.extra-configure }}
 
     - name: Build
