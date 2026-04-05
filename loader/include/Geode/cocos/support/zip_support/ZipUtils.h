@@ -30,6 +30,7 @@ THE SOFTWARE.
 #include "../../platform/CCPlatformConfig.h"
 #include "../../include/ccMacros.h"
 #include "zipMacro.h"
+#include <Geode/c++stl/string.hpp>
 
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
 #include "../../platform/android/CCFileUtilsAndroid.h"

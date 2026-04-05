@@ -3,7 +3,7 @@
 
 class DS_Dictionary;
 
-#include "../../include/cocos2d.h"
+#include "../../base_nodes/CCNode.h"
 
 // @note RobTop Addition
 class CC_DLL ObjectDecoderDelegate {
