@@ -142,6 +142,7 @@ THE SOFTWARE.
     #include "../platform/ios/CCAccelerometer.h"
     #include "../platform/ios/CCApplication.h"
     #include "../platform/ios/CCEGLView.h"
+	#include "../platform/ios/CCFileUtilsIOS.h"
     #include "../platform/ios/CCGL.h"
     #include "../platform/ios/CCStdC.h"
 #endif // CC_TARGET_PLATFORM == CC_PLATFORM_IOS
@@ -150,6 +151,7 @@ THE SOFTWARE.
     #include "../platform/android/CCAccelerometer.h"
     #include "../platform/android/CCApplication.h"
     #include "../platform/android/CCEGLView.h"
+	#include "../platform/android/CCFileUtilsAndroid.h"
     #include "../platform/android/CCGL.h"
     #include "../platform/android/CCStdC.h"
 #endif // CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID
@@ -167,6 +169,7 @@ THE SOFTWARE.
 	#include "../platform/win32/CCAccelerometer.h"
 	#include "../platform/win32/CCApplication.h"
 	#include "../platform/win32/CCEGLView.h"
+	#include "../platform/win32/CCFileUtilsWin32.h"
 	#include "../platform/win32/CCGL.h"
 	#include "../platform/win32/CCStdC.h"
 #endif // CC_TARGET_PLATFORM == CC_PLATFORM_WIN32
@@ -195,6 +198,7 @@ THE SOFTWARE.
 	#include "../platform/mac/CCAccelerometer.h"
 	#include "../platform/mac/CCApplication.h"
 	#include "../platform/mac/CCEGLView.h"
+	#include "../platform/mac/CCFileUtilsMac.h"
 	#include "../platform/mac/CCGL.h"
 	#include "../platform/mac/CCStdC.h"
 #endif // CC_TARGET_PLATFORM == CC_PLATFORM_MAC
