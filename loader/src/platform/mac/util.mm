@@ -5,7 +5,8 @@ using namespace geode::prelude;
 
 #include <Geode/loader/Dirs.hpp>
 #include <Geode/loader/GameEvent.hpp>
-#include <Geode/Utils.hpp>
+#include <Geode/utils/ObjcHook.hpp>
+#include <Geode/utils/permission.hpp>
 #include <Geode/binding/GameManager.hpp>
 #include <objc/runtime.h>
 #include <Geode/utils/web.hpp>

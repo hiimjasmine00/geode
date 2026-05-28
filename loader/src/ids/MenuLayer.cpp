@@ -1,5 +1,5 @@
 #include <Geode/modify/IDManager.hpp>
-#include <Geode/modify/MenuLayer.hpp>
+#include <Geode/binding/MenuLayer.hpp>
 #include <Geode/utils/cocos.hpp>
 #include <Geode/utils/NodeIDs.hpp>
 #include <Geode/ui/BasedButtonSprite.hpp>

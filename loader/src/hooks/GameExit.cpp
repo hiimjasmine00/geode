@@ -1,11 +1,12 @@
 #include <Geode/loader/GameEvent.hpp>
-#include <Geode/modify/CCDirector.hpp>
-#include <Geode/modify/PlatformToolbox.hpp>
-#include <cocos2d.h>
 
 #ifdef GEODE_IS_MACOS
+#include <Geode/loader/Mod.hpp>
+#include <Geode/loader/Priority.hpp>
 #include <Geode/utils/ObjcHook.hpp>
 #include <objc/message.h>
+#else
+#include <Geode/modify/CCDirector.hpp>
 #endif
 
 using namespace geode::prelude;

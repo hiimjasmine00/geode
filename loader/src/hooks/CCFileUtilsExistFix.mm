@@ -1,4 +1,6 @@
-#include <Geode/Geode.hpp>
+#include <Geode/Prelude.hpp>
+#include <Geode/utils/StringBuffer.hpp>
+#include <Geode/utils/ZStringView.hpp>
 
 #define CommentType CommentTypeDummy
 #import <Foundation/Foundation.h>

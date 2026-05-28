@@ -1,8 +1,6 @@
 #include "crashlog.hpp"
 #include <fmt/core.h>
 #include "about.hpp"
-#include "../loader/ModImpl.hpp"
-#include <Geode/Utils.hpp>
 #include <Geode/utils/web.hpp>
 #include <asp/time/SystemTime.hpp>
 #include <Geode/utils/async.hpp>

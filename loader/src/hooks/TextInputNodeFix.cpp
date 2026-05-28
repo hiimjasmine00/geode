@@ -1,10 +1,12 @@
-#include <Geode/modify/CCTextInputNode.hpp>
+#include <Geode/platform/cplatform.h>
 
 #ifdef GEODE_IS_ANDROID
 
-using namespace geode::prelude;
-
 // TODO: commenting cause cctextinputnode is changed enough that i'm not sure how it works now
+
+// #include <Geode/modify/CCTextInputNode.hpp>
+
+// using namespace geode::prelude;
 
 // struct TextNodeFix : Modify<TextNodeFix, CCTextInputNode> {
 // 	bool onTextFieldInsertText(cocos2d::CCTextFieldTTF* field, char const* text, int count) {

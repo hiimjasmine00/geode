@@ -3,7 +3,6 @@
 using namespace geode::prelude;
 
 #include <Geode/loader/Loader.hpp> // i don't think i have to label these anymore
-#include <Geode/Utils.hpp>
 #include "thread.hpp"
 
 static thread_local std::string s_threadName;

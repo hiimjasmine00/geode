@@ -1,9 +1,6 @@
-#include <Geode/Geode.hpp>
 #include <Geode/modify/CCSprite.hpp>
 #include <Geode/modify/CCSpriteFrameCache.hpp>
 #include <Geode/modify/CCSpriteBatchNode.hpp>
-#include <Geode/modify/CCTextureCache.hpp>
-#include <Geode/modify/MenuLayer.hpp>
 
 using namespace geode::prelude;
 

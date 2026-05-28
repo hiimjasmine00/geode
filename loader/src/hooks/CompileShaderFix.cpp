@@ -1,4 +1,3 @@
-#include <Geode/Geode.hpp>
 #include <loader/LoaderImpl.hpp>
 
 using namespace geode::prelude;

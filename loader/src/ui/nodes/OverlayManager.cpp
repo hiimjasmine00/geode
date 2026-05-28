@@ -1,5 +1,5 @@
 #include <Geode/loader/ModEvent.hpp>
-#include <Geode/Loader.hpp>
+#include <Geode/loader/Loader.hpp>
 #include <Geode/ui/OverlayManager.hpp>
 
 using namespace geode::prelude;

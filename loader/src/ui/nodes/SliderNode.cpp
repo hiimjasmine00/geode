@@ -1,5 +1,5 @@
 #include <Geode/ui/SliderNode.hpp>
-#include <Geode/Geode.hpp>
+#include <Geode/loader/Mod.hpp>
 
 using namespace geode::prelude;
 

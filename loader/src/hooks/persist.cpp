@@ -1,13 +1,12 @@
 #include <Geode/ui/OverlayManager.hpp>
 #include <Geode/modify/CCDirector.hpp>
-#include <Geode/modify/CCEGLView.hpp>
 
 using namespace geode::prelude;
 
 #ifdef GEODE_IS_WINDOWS
-#include <Geode/modify/AppDelegate.hpp>
+#include <Geode/binding/AppDelegate.hpp>
 #else
-#include <Geode/modify/AchievementNotifier.hpp>
+#include <Geode/binding/AchievementNotifier.hpp>
 #endif
 
 namespace geode {

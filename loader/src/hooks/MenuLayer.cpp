@@ -14,7 +14,6 @@
 #include <loader/LoaderImpl.hpp>
 #include <loader/updater.hpp>
 #include <Geode/binding/ButtonSprite.hpp>
-#include <Geode/modify/LevelSelectLayer.hpp>
 #include <Geode/utils/ColorProvider.hpp>
 
 using namespace geode::prelude;

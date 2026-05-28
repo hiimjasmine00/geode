@@ -3,7 +3,6 @@
 using namespace geode::prelude;
 
 #include <Geode/modify/AppDelegate.hpp>
-#include <Geode/modify/CCApplication.hpp>
 
 namespace {
     void saveModData() {
@@ -29,6 +28,8 @@ struct SaveLoader : Modify<SaveLoader, AppDelegate> {
 };
 
 #ifdef GEODE_IS_WINDOWS
+
+#include <Geode/modify/CCApplication.hpp>
 
 struct FallbackSaveLoader : Modify<FallbackSaveLoader, CCApplication> {
     GEODE_FORWARD_COMPAT_ENABLE_HOOKS("")

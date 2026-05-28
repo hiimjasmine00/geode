@@ -16,7 +16,8 @@ using namespace geode::prelude;
 #include <Geode/binding/AppDelegate.hpp>
 #include <Geode/binding/MenuLayer.hpp>
 #include <Geode/binding/FLAlertLayer.hpp>
-#include <Geode/Utils.hpp>
+#include <Geode/utils/file.hpp>
+#include <Geode/utils/ObjcHook.hpp>
 #include <mach-o/utils.h>
 #include <objc/runtime.h>
 #include <objc/message.h>
